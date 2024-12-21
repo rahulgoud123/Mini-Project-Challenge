@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    gap: 20px;
+    overflow-x: scroll;
+    overflow: hidden;
+    
+    
+}
+
+.card-category{
+    color: rgb(129, 123, 123);
+}
+.prev-btn{
+    margin-left: 650px;
+    margin-top: 50px;
+    position: fixed;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+.next-btn{
+    position: fixed;
+    margin-left: 750px;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
